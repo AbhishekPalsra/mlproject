@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv
+exec_prefix=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv
+libdir=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv/lib
+includedir=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

@@ -1,0 +1,10 @@
+# End to End Ml projects
+#Setup project on github
+#  a) new environment b) setup.py c) requirements.txt
+# 1. data ingestion
+# 2. data transformation
+# 3. model trainer
+# 4. model evluation
+# 5. model deployment  
+#CI/CD pipelines- github actions
+# deployment aws

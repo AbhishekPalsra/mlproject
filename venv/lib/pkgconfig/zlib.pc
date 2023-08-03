@@ -1,0 +1,13 @@
+prefix=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv
+exec_prefix=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv
+libdir=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv/lib
+sharedlibdir=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv/lib
+includedir=/Users/abhishek/Desktop/PYTHON/Deployment/MLPROJECT/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
