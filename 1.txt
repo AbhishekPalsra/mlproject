@@ -2,10 +2,14 @@
 #Setup project on github
 #  a) new environment b) setup.py c) requirements.txt 
 #  --> Source foler and build the package 
-# 1. data ingestion
-# 2. data transformation
-# 3. model trainer
+compoenents are the packages used in our model 
+# 1. data ingestion  --reveving data from variety of sources
+# 2. data transformation --
+# 3. model trainer -- model trainning ,cofusin matrix , l1,l2 regresion -- training purpose
 # 4. model evluation
 # 5. model deployment  
 #CI/CD pipelines- github actions
+pipeline -- -- 
+-- exception,logger,utils
+
 # deployment aws
